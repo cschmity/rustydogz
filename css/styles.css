@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color:#FECF33;
+}
+.navbar {
+	background-color:#000;
+}
+.navbar-brand, .nav >li >a {
+	color:#ED1C24 !important;
+}
+#home {
+	padding-top: 50px;
+}
+#menu, #contact {
+	padding-top: 50px;
+	margin-top:-50px;
+}
+.jumbotron {
+	background-color:#000;
+	color:#ED1C24;
+}
