@@ -19,4 +19,8 @@ body {
 .jumbotron {
 	background-color:#000;
 	color:#ED1C24;
+	padding:0;
+}
+img {
+	width:100%;
 }
