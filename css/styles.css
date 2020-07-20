@@ -2,12 +2,27 @@
 /* CSS Document */
 body {
 	background-color:#FECF33;
+	font-family: 'Luckiest Guy', cursive;
+	color:#000;
 }
 .navbar {
 	background-color:#000;
 }
-.navbar-brand, .nav >li >a {
-	color:#ED1C24 !important;
+.nav-logo, .nav >li >a {
+	color:#C94747 !important;
+	font-weight:bold;
+}
+.nav-logo {
+	padding:0 5px;
+}
+.nav-logo:hover  {
+	text-decoration:none;
+}
+.navbar-toggle {
+	border:none !important;
+}
+.navlinks li a:hover, .navlinks li.active a {
+	background-color:#FECF33 !important;
 }
 #home {
 	padding-top: 50px;
@@ -18,11 +33,21 @@ body {
 }
 .jumbotron {
 	background-color:#000;
-	color:#ED1C24;
+	color:#C94747;
 	padding:0;
 }
 .logo > img {
 	width:100%;
 	max-width:360px;
 	padding:10px 10px 60px 10px;
+}
+h4 {
+font-family: 'Atma', cursive;
+}
+h1 {
+	color:#C94747;
+	font-size:42px;
+}
+footer {
+	background-color:#000;
 }
