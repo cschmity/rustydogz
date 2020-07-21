@@ -93,6 +93,7 @@
     <h4>Call...<a class="button" href="tel:9069842344">(906)984-2344</a></h4>
     <h4><a  target="_blank" class="button" href="https://goo.gl/maps/ruSXUJiZmePQe7716">Rusty Dogz<br>416 N State St<br>St Ignace, MI 49781</a></h4>
 </div>
+<form id="contactform" method="POST">
 <div class="container">
   <div class="row">
     <div class="col-sm-4 foot">
@@ -114,9 +115,13 @@
     <input type="submit" class="btn form-btn" value="send">
   </div>
 </div>
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '#');
+</script>
 <div class="container text-center">
-  <a href="https://www.facebook.com/MilliesOnMain" target="_blank"><img src="images/facebook.svg" alt="facebook" class="icon"></a>
-  <a href="https://www.instagram.com/milliesonmain/" target="_blank"><img src="images/instagram.svg" alt="instagram" class="icon"></a>
+  <a href="https://www.facebook.com/rustydogzMI" target="_blank"><img src="images/facebook.svg" alt="facebook" class="icon"></a>
+  <a href="#" target="_blank"><img src="images/instagram.svg" alt="instagram" class="icon"></a>
   <a href="#" target="_blank"><img src="images/tripadvisor.svg" alt="Trip Advisor" class="icon"></a>
 </div>
 <div class="container-fluid text-center copyright">
