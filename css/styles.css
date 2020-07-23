@@ -113,6 +113,7 @@ label {
 	border-color:#C94747;
 	font-weight:bold;
 	margin:30px 0 30px 0;
+	line-height:1;
 }
 .form-btn:hover {
 	color:#FECF33;
