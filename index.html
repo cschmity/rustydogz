@@ -23,25 +23,37 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="nav-logo" href="#home"><img src="images/Rusty-Dogz-Logo-nav.png">&nbsp;Rusty Dogz</a>
+      <a class="phone" href="tel:9069842344"><span class="glyphicon glyphicon-earphone"></span></a>
+      <a class="navlogo" href="#home"><img src="images/Rusty-Dogz-Logo-nav.png">&nbsp;Rusty Dogz</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right navlinks">
+      <ul class="nav navbar-nav text-center navbar-right navlinks">
         <li class="active"><a href="#home">Home</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#contact">Contact</a></li>
+        <div class="social-nav">
+          <a href="https://www.facebook.com/rustydogzMI" target="_blank"><img src="images/facebook.svg" alt="facebook"></a>
+        </div>
+        <div class="social-nav">
+          <a href="#" target="_blank"><img src="images/instagram.svg" alt="instagram"></a>
+        </div>
+        <div class="social-nav">
+          <a href="#" target="_blank"><img src="images/tripadvisor.svg" alt="Trip Advisor"></a>
+        </div>
       </ul>
     </div>
   </div>
 </nav>
-<header class="jumbotron text-center logo">
+<header class="container-fluid text-center logo">
   <img src="images/Rusty Dogz Logo.svg">
+</div>
 </header>
 <div class="container-fluid stripe"></div>
 <div class="container text-center about-wrap">
   <div class="row">
     <div class="col-sm-6 about">
       <h1>About</h1>
+      <h3>Open 11:00 a.m. - 9:00 p.m.<br>Daily for dining or carry out!</h3>
       <h4>Rusty Dogz Gourmet Hot Dogz Houz is serving up your favorite classic dogs with a twist.  
       Eat in our family friendly dining room or call for carry out. 
       We feature Michigan made Vollwerth all American hot dogs and Faygo soft drinks.
@@ -52,6 +64,7 @@
     </div>
       <!-- Carousel -->
     <div id="myCarousel" class="col-sm-6 carousel slide carousel-wrap" data-ride="carousel">
+      <div class="carousel-padding">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -61,7 +74,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="images/Kennel.jpg" alt="The Kennel">
+            <img src="images/kennel-lg.jpg" alt="The Kennel">
         </div>
     
         <div class="item">
@@ -81,14 +94,13 @@
         <span class="sr-only">Next</span>
       </a>
       </div>
+      </div>
     </div>
   </div>
 </div>
-<div id="menu" class="container text-center">
+<div id="menu" class="container text-center menu">
   <h1>Rusty's Dogz</h1>
   <h4>All Dogz Served with Locally Made Chips<br>Upgrade to French Fries for 1.99 or Chili Cheese Fries for 3.99<br>Add Chili 1.00 Add Cheese .75 All Other Additional Toppings Add .50</h4>
-</div>
-<div class="container text-center">
   <div class="row"> 
     <div class="col-sm-6">
       <h2>The Rusty Dog ...5.99</h2>
@@ -115,11 +127,7 @@
       <h4>Corn Dog Roll, Ketchup Drizzle, French Fries, Faygo</h4>
     </div>
   </div> 
-</div>
-<div class="container text-center">
   <h1>Rusty's Drinks</h1>
-</div>
-<div class="container text-center">
   <div class="row"> 
     <div class="col-sm-6">
       <h2>Hand Dipped Shakes</h2>
@@ -166,12 +174,20 @@
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '#');
 </script>
+<div class="container map">
+  <div class="map-padding">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2622.1838307389175!2d-84.
+  73053755453485!3d45.869171972001226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9af02f04afd7a04a!
+  2sRusty%20Dogz!5e0!3m2!1sen!2sus!4v1595729676152!5m2!1sen!2sus" 
+  width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+</div>
 <div class="container text-center">
   <a href="https://www.facebook.com/rustydogzMI" target="_blank"><img src="images/facebook.svg" alt="facebook" class="icon"></a>
   <a href="#" target="_blank"><img src="images/instagram.svg" alt="instagram" class="icon"></a>
   <a href="#" target="_blank"><img src="images/tripadvisor.svg" alt="Trip Advisor" class="icon"></a>
 </div>
-<div class="container-fluid text-center copyright">
+<div class="container-fluid text-right copyright">
 <h4>© Rusty Dogz</h4>
 </div>
 </footer>
