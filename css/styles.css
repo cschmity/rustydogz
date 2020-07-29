@@ -37,6 +37,9 @@ body {
 .social-nav > a > img {
 	height:35px;
 }
+.social-nav > a > img:hover {
+	filter: brightness(0) saturate(100%) invert(99%) sepia(48%) saturate(7490%) hue-rotate(324deg) brightness(98%) contrast(105%);
+}
 .icon-bar {
 	background-color:#C94747 !important;
 }
@@ -180,6 +183,9 @@ label {
 .icon {
 	width:60px;
 	margin:0 10% 10px 10%;
+}
+.icon:hover {
+	filter: brightness(0) saturate(100%) invert(99%) sepia(48%) saturate(7490%) hue-rotate(324deg) brightness(98%) contrast(105%);
 }
 .map {
 	margin-bottom:25px;
