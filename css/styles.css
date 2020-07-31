@@ -26,7 +26,7 @@ body {
 	border:none !important;
 }
 .navlinks li a:hover, .navlinks li.active a {
-	background-color:#FECF33 !important;
+	color:#FECF33 !important;
 }
 .social-nav {
 	display:none;
@@ -122,12 +122,12 @@ body {
 .ordnow:hover, .ordnow:active, .ordnow:focus {
 	text-decoration:none;
 }
-.carousel-wrap {
-	max-width:952px;
-}
 .carousel-padding {
 	padding:5px;
 	background-color:#000;
+}
+.w-100 {
+	width:100%;
 }
 .menu {
 	margin-bottom:20px;
@@ -147,9 +147,7 @@ h1 {
 .foot-wrap {
 	background-color:#000;
 }
-footer {
-	
-}
+
 .foot > h1:first-child {
 	margin-top:30px;
 }
@@ -159,7 +157,12 @@ footer {
 .foot h4, .foot h4 >a {
 	font-size:24px;
 }
-
+.foot h4 >a:hover {
+    color:#FECF33;
+}
+.foot h4 >a:hover, .foot h4 >a:focus {
+	text-decoration:none;
+}
 label {
 	letter-spacing:2px;
 	margin-top:15px;
