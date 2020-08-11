@@ -25,7 +25,14 @@ body {
 .navbar-toggle {
 	border:none !important;
 }
+.navbar-toggle:hover, .navbar-toggle:focus {
+	background-color:#000 !important;
+}
+.navbar-toggle:hover .icon-bar {
+	background-color:#FECF33 !important;
+}
 .navlinks li a:hover, .navlinks li.active a {
+	background-color:#000 !important;
 	color:#FECF33 !important;
 }
 .social-nav {
@@ -102,9 +109,9 @@ body {
 	font-weight:bold;
 	padding:10px 20px;
     color:#C94747;
-	background-color:#000;
+	background-color:#FECF33;
 	border:3px solid #C94747;
-	border-radius: 10px;
+	border-radius: 5px;
 	font-weight:bold;
 	margin-bottom:30px;
 	font-family: initial !important;
@@ -115,9 +122,8 @@ body {
 }
 .ordnow:hover .button {
 	text-decoration:none;
-	color:#000;
+	color:#FECF33;
 	background-color:#C94747;
-	border-color:#000;
 }
 .ordnow:hover, .ordnow:active, .ordnow:focus {
 	text-decoration:none;
@@ -125,6 +131,12 @@ body {
 .carousel-padding {
 	padding:5px;
 	background-color:#000;
+}
+.carousel-indicators li {
+	border-color:#C94747 !important;
+}
+.carousel-indicators .active {
+	background-color:#C94747 !important;
 }
 .w-100 {
 	width:100%;
@@ -167,9 +179,13 @@ label {
 	letter-spacing:2px;
 	margin-top:15px;
 }
+form {
+	text-align:left;
+}
 .form-btn {
+	font-size:20px;
 	color:#C94747;
-	background-color:#FECF33;
+	background-color:#000;
 	border-color:#C94747;
 	font-weight:bold;
 	margin:30px 0 30px 0;
@@ -178,10 +194,14 @@ label {
 }
 .form-btn:hover {
 	color:#FECF33;
-	background-color:#C94747;
+	background-color:#000;
+	border-color:#FECF33;
 }
 .form-container {
 	padding:0;
+}
+input, textarea {
+	font-family: 'Atma', cursive;
 }
 .icon {
 	width:60px;
