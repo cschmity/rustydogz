@@ -22,14 +22,14 @@ body {
 .navlogo:hover {
 	color:#FECF33 !important;
 }
-.navbar-toggle {
-	border:none !important;
-}
 .navbar-toggle:hover, .navbar-toggle:focus {
 	background-color:#000 !important;
 }
 .navbar-toggle:hover .icon-bar {
 	background-color:#FECF33 !important;
+}
+.navbar-toggle:focus .icon-bar {
+	background-color:#C94747 !important;
 }
 .navlinks li a:hover, .navlinks li.active a {
 	background-color:#000 !important;
@@ -49,7 +49,43 @@ body {
 }
 .icon-bar {
 	background-color:#C94747 !important;
+	display:block;
 }
+
+.navbar-toggle {
+  cursor: pointer;
+  border:none !important;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+  display:block;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 4.25px) ;
+  transform: rotate(-45deg) translate(-6px, 4.25px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-7px, -6px) ;
+  transform: rotate(45deg) translate(-7px, -6px) ;
+}
+
+
 .navlogo > img {
 	width:50px;
 }
@@ -226,5 +262,8 @@ input, textarea {
 @media (max-width: 767px) {
 .social-nav {
 	display:block;
+}
+.navbar-toggle {
+	display: inline-block;
 }
 }
