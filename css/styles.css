@@ -89,7 +89,6 @@ body {
   width:100%;
   max-width:360px;
   padding:10px 10px 60px 10px;
-  animation-delay: .5s;
   animation-duration: 1s; 
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;
@@ -138,9 +137,6 @@ body {
 }
 .logo > h4 > a {
 	color:#C94747;
-}
-.logo > img {
-	
 }
 .glyphicon-earphone {
 	color:#C94747;
