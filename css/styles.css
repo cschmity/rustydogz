@@ -86,7 +86,9 @@ body {
 }
 
 .bounceIn {
-  width:50px;
+  width:100%;
+  max-width:360px;
+  padding:10px 10px 60px 10px;
   animation-delay: .5s;
   animation-duration: 1s; 
   animation-fill-mode: both;
@@ -95,9 +97,6 @@ body {
 }
 .navlogo > img {
 	width:50px;
-	animation-duration: 1s; 
-	animation-fill-mode: both;
-	animation-timing-function: ease-in-out;
 }
  @keyframes bounceIn {
   0% {
@@ -141,9 +140,7 @@ body {
 	color:#C94747;
 }
 .logo > img {
-	width:100%;
-	max-width:360px;
-	padding:10px 10px 60px 10px;
+	
 }
 .glyphicon-earphone {
 	color:#C94747;
